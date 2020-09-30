@@ -1,0 +1,28 @@
+{
+  "name": "photoshoplogparser",
+  "productName": "PhotoshopLogParser",
+  "version": "1.0.0",
+  "description": "Parse Photoshop generated log to... something. :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trogulja/PhotoshopLogParser.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Tibor Rogulja",
+    "email": "tibor.rogulja@tiskarazagreb.hr"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trogulja/PhotoshopLogParser/issues"
+  },
+  "homepage": "https://github.com/trogulja/PhotoshopLogParser#readme",
+  "dependencies": {
+    "nedb-promises": "^4.0.4",
+    "xlsx": "^0.16.7"
+  }
+}

@@ -1,0 +1,206 @@
+2020-09-30 11:00:55	File katrin_by_luise_reichert-7.psd closed
+2020-09-30 11:01:05	File stjepan.tif opened
+	New Levels Layer
+	Modify Levels Layer
+	Merge Visible
+2020-09-30 11:01:10	File C:\LoginAppNew\Export\stjepan.tif saved
+2020-09-30 11:01:11	File stjepan.tif closed
+2020-09-30 11:12:44	File stjepan.tif opened
+	New Curves Layer
+	Modify Curves Layer
+	Merge Visible
+	New Curves Layer
+	Modify Curves Layer
+	Merge Visible
+2020-09-30 11:12:51	File C:\LoginAppNew\Export\stjepan.tif saved
+2020-09-30 11:12:51	File stjepan.tif closed
+2020-09-30 11:34:29	File riba002.jpg opened
+	Image Size
+2020-09-30 11:34:52	File riba002.jpg closed
+2020-09-30 11:39:04	File riba002.jpg opened
+	Image Size
+	New Curves Layer
+	Modify Curves Layer
+	New Exposure Layer
+	New Curves Layer
+	New Curves Layer
+	Modify Curves Layer
+	Stamp Visible
+	New Curves Layer
+	Delete Layer
+	Color Range
+	New Curves Layer
+	Modify Curves Layer
+	Layer Mask Feather Change
+	Stamp Visible
+	Layer Order
+	Eraser
+	Eraser
+	Eraser
+	New Curves Layer
+	Modify Curves Layer
+	Invert
+	Eraser
+	Modify Curves Layer
+	Eraser
+	New Curves Layer
+	Modify Curves Layer
+	Invert
+	Eraser
+	Eraser
+	Stamp Visible
+	Layer Via Copy
+	Blending Change
+	Convert to Smart Object
+	High Pass
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Stamp Visible
+	Undo
+	Stamp Visible
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+2020-09-30 11:43:53	File C:\Users\tothkarl\AppData\Roaming\Adobe\Adobe Photoshop CC 2018\AutoRecover\_riba0026D176371BE4762F3FF014ABB47C1F12F.psb saved
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Clone Stamp
+	Spot Healing Brush
+	Spot Healing Brush
+	Spot Healing Brush
+	Layer Via Copy
+	Camera Raw Filter
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	Healing Brush
+	New Levels Layer
+	Modify Levels Layer
+	Modify Levels Layer
+	Merge Visible
+	New Layer
+	Fill
+	Blending Change
+	Convert to Smart Object
+	Add Noise
+	Merge Visible
+	Delete Layer
+	CMYK Color
+2020-09-30 11:46:41	File C:\Users\tothkarl\Desktop\riba002.jpg saved
+2020-09-30 11:46:42	File riba002.jpg closed
+2020-09-30 12:01:20	File GettyImages-898700484.jpg opened
+2020-09-30 12:01:22	File voestalpine_nbi_logo_cmyk.jpg opened
+2020-09-30 12:01:23	File 2018_Preﬂlmayer_Christian_35.jpg opened
+	New Levels Layer
+	Modify Levels Layer
+	Merge Visible
+	Unsharp Mask
+	Eraser
+	Eraser
+	Eraser
+	Modify Selective Color Layer
+	Layer Via Copy
+	Layer Via Copy
+	New Curves Layer
+	Modify Curves Layer
+	Merge Visible
+	CMYK Color
+2020-09-30 12:02:03	File D:\WIENNA\VA\18-19_NBI_ST Ordner_KT\Links\2018_Preﬂlmayer_Christian_35.jpg saved
+2020-09-30 12:02:04	File 2018_Preﬂlmayer_Christian_35.jpg closed
+2020-09-30 12:02:06	File D:\WIENNA\VA\18-19_NBI_ST Ordner_KT\Links\voestalpine_nbi_logo_cmyk.jpg saved
+2020-09-30 12:02:07	File voestalpine_nbi_logo_cmyk.jpg closed
+	Healing Brush
+	New Levels Layer
+	Modify Levels Layer
+	Merge Visible
+	New Hue/Saturation Layer
+	Modify Hue/Saturation Layer
+	Merge Visible
+	Eraser
+	Eraser
+	Eraser
+	Modify Selective Color Layer
+	Layer Via Copy
+	Layer Via Copy
+	Duplicate Layer
+	New Photo Filter Layer
+	Invert
+	Eraser
+	Eraser
+	New Curves Layer
+	Modify Curves Layer
+	Invert
+	Eraser
+	New Hue/Saturation Layer
+	Modify Hue/Saturation Layer
+	Merge Visible
+	CMYK Color
+2020-09-30 12:03:16	File D:\WIENNA\VA\18-19_NBI_ST Ordner_KT\Links\GettyImages-898700484.jpg saved
+2020-09-30 12:03:18	File GettyImages-898700484.jpg closed
+2020-09-30 12:10:35	File PXL_140820_29812943.jpg opened
+2020-09-30 12:10:45	File PXL_140820_29812943.jpg closed

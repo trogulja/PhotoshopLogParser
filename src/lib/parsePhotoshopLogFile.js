@@ -22,10 +22,12 @@ async function parsePhotoshopLogFile(file) {
   let i = 0;
   let action = 0;
   for await (let line of rl) {
-    line = line.toString('utf8');
     let event = 'ignore';
-    if (psRegex.action.test(line)) event = 'action';
-    else {
+    if (psRegex.action.test(line)) {
+      action += 1;
+      // event = 'action';
+      // await handleAction(event, line, i);
+    } else {
       if (psRegex.open.test(line)) event = 'open';
       else if (psRegex.save.test(line)) event = 'save';
       else if (psRegex.close.test(line)) event = 'close';
@@ -33,7 +35,6 @@ async function parsePhotoshopLogFile(file) {
       await handleFile(event, line, i);
     }
 
-    await handleAction(event, line, i);
     i += 1;
   }
 
@@ -42,12 +43,15 @@ async function parsePhotoshopLogFile(file) {
       action += 1;
     } else {
       if (action > 0) {
-        console.log(`Line: ${i}, Action is: ${action}`)
+        console.log(`Line: ${i}, Action is: ${action}`);
         const match = await db.findOne({ actions: 0 }).sort({ i: -1 });
-        if (!match) console.log(line)
-        console.log(match)
-        const res = await db.update({ _id: match._id }, { $set: { actions: action } });
-        console.log(res)
+        if (!match) console.log(line);
+        console.log(match);
+        const res = await db.update(
+          { _id: match._id },
+          { $set: { actions: action } }
+        );
+        console.log(res);
         action = 0;
       }
     }
@@ -60,15 +64,27 @@ async function parsePhotoshopLogFile(file) {
     const name = event === 'save' ? path.basename(m[7]) : m[7];
 
     if (event === 'open') {
-      await db.insert({ i, name, path: null, open: date, save: null, close: null, actions: 0, duration: 0 });
+      await db.insert({
+        i,
+        name,
+        path: null,
+        open: date,
+        save: null,
+        close: null,
+        actions: 0,
+        duration: 0,
+      });
     } else {
       const match = await db.findOne({ name }).sort({ i: -1 });
       // if (!match) console.log(`We couldn't find a match for event ${event} for name ${name}`);
       if (!match) return false;
 
       let update = {};
-      if (event === 'save') update = { save: date, path: m[7] };
-      if (event === 'close') update = { close: date, duration: calcDuration(match.open, date) };
+      if (event === 'save') {
+        update = { save: date, path: m[7] };
+      } else if (event === 'close') {
+        update = { close: date, duration: calcDuration(match.open, date) };
+      }
 
       await db.update({ _id: match._id }, { $set: update });
     }
@@ -77,7 +93,7 @@ async function parsePhotoshopLogFile(file) {
   }
 
   function calcDuration(start, end) {
-    return Math.round((end.getTime() - start.getTime()) / 1000)
+    return Math.round((end.getTime() - start.getTime()) / 1000);
   }
 
   // const results = await db.find({});
